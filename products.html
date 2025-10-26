@@ -1,0 +1,649 @@
+    <!DOCTYPE html>
+    <html lang="uz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mahsulotlar - NanoDecor</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/responsive.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="nav-container">
+                    <div class="nav-logo">
+                        <h2>NanoDecor</h2>
+                    </div>
+                    
+                    <!-- Language Selector -->
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="uz">
+                            <i class="fas fa-flag"></i> UZ
+                        </button>
+                        <button class="lang-btn" data-lang="ru">
+                            <i class="fas fa-flag"></i> РУ
+                        </button>
+                        <button class="lang-btn" data-lang="zh">
+                            <i class="fas fa-flag"></i> 中文
+                        </button>
+                    </div>
+
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link" data-key="home">Bosh sahifa</a></li>
+                        <li><a href="products.html" class="nav-link active" data-key="products">Mahsulotlar</a></li>
+                        <li><a href="projects.html" class="nav-link" data-key="projects">Loyihalar</a></li>
+                        <li><a href="contact.html" class="nav-link" data-key="contact">Bog'lanish</a></li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Products Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <h1 data-key="products-title">Bizning Mahsulotlarimiz</h1>
+                <p data-key="products-subtitle">Yuqori sifatli tosh va dekorativ materiallar</p>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-section">
+            <div class="container">
+                <!-- Category Filter -->
+                <!-- <div class="category-filter"> -->
+                    <!-- <button class="filter-btn active" data-category="all" data-key="all">Barchasi</button>
+                    <button class="filter-btn" data-category="marble" data-key="marble">Marmar</button>
+                    <button class="filter-btn" data-category="panels" data-key="panels">Panolar</button>
+                    <button class="filter-btn" data-category="mosaics" data-key="mosaics">Mozaikalar</button>
+                    <button class="filter-btn" data-category="limestone" data-key="limestone">Ohaktosh</button> -->
+                    <!-- <button class="filter-btn" data-category="limestone" data-key="limestone">Ohaktosh</button> -->
+                <!-- </div> -->
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Marble Products -->
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm1.jpg" alt="Marmar 1">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$45</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm2 (1).jpg" alt="Marmar 2">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 2</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$50</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm3 (1).jpg" alt="Marmar 3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 3</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$42</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm4 (1).jpg" alt="Marmar 4">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 4</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$48</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm5 (1).jpg" alt="Marmar 5">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 5</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$60</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm6 (1).jpg" alt="Marmar 6">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 6</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$52</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm7 (1).jpg" alt="Marmar 7">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 7</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$55</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm8 (1).jpg" alt="Marmar 8">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 8</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$58</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm9 (1).jpg" alt="Marmar 9">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 9</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$65</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm10 (1).jpg" alt="Marmar 10">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 10</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$46</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel Products -->
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm11 (1).jpg" alt="Panel 1">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 11</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$35</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm12 (1).jpg" alt="Panel 2">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 12</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$40</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm13 (1).jpg" alt="Panel 3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 13</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$38</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm14 (1).jpg" alt="Panel 4">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 14</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$45</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm15 (1).jpg" alt="Panel 5">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 15</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$42</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm16 (1).jpg" alt="Panel 6">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 16</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$36</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm17 (1).jpg" alt="Panel 7">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 17</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$39</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm18 (1).jpg" alt="Panel 8">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 18</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$48</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm19 (1).jpg" alt="Panel 9">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 19</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$44</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="marble">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm20 (1).jpg" alt="Panel 10">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 20</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$41</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mosaic Products -->
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm21 (1).jpg" alt="Mozaika 1">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 21</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$28</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm22 (1).jpg" alt="Mozaika 2">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 22</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$32</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm23 (1).jpg" alt="Mozaika 3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 23</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$30</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm24 (1).jpg" alt="Mozaika 4">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 24</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$34</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm25 (1).jpg" alt="Mozaika 5">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 25</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$38</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm26 (1).jpg" alt="Mozaika 6">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 26</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$35</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm27 (1).jpg" alt="Mozaika 7">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 27</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$40</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm28 (1).jpg" alt="Mozaika 8">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 28</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$42</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm29 (1).jpg" alt="Mozaika 9">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 29</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$36</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm30 (1).jpg" alt="Mozaika 10">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 30</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$45</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Limestone Products -->
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm31 (1).jpg" alt="Ohaktosh 1">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 31</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$25</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm32 (1).jpg" alt="Ohaktosh 2">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 32</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$30</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm33 (1).jpg" alt="Ohaktosh 3">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 33</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$35</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm34 (1).jpg" alt="Ohaktosh 4">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 34</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$32</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm35 (1).jpg" alt="Ohaktosh 5">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 35</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$28</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm36 (1).jpg" alt="Ohaktosh 6">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 36</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$38</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm37 (1).jpg" alt="Ohaktosh 7">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 37</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$26</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm38 (1).jpg" alt="Ohaktosh 8">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 38</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$34</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm39 (1).jpg" alt="Ohaktosh 9">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 39</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$40</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="mosaics">
+                        <div class="product-image">
+                            <img src="./nanodecor_picture/rasm40 (1).jpg" alt="Ohaktosh 10">
+                        </div>
+                        <div class="product-info">
+                            <h3>Mozaika 40</h3>
+                            <div class="product-details">
+                                <!-- <span class="area">1 m²</span>
+                                <span class="price">$36</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="products-cta">
+                    <h2 data-key="">Yana ko'proq mahsulotlarni ko'rishni xohlasangiz biz bilan bog'laning!</h2>
+                    <p data-key="contact-us">Bizga bog'laning va eng yaxshi takliflarni oling!</p>
+                    <button class="btn-primary register-btn" data-key="contact-now">Hozir bog'laning</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>NanoDecor</h3>
+                        <p data-key="footer-desc">Professional tosh ishlov berish va dekorativ materiallar ishlab chiqarish kompaniyasi.</p>
+                        <div class="social-links">
+                            <a href="https://t.me/nano_decor" class="social-link">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/nano_decor?igsh=eXBwMWh4aXQxNzZw" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-key="quick-links">Tezkor havolalar</h4>
+                        <ul>
+                            <li><a href="index.html" data-key="home">Bosh sahifa</a></li>
+                            <li><a href="products.html" data-key="products">Mahsulotlar</a></li>
+                            <li><a href="projects.html" data-key="projects">Loyihalar</a></li>
+                            <li><a href="contact.html" data-key="contact">Bog'lanish</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4 data-key="contact-info">Aloqa ma'lumotlari</h4>
+                        <p><i class="fas fa-phone"></i> +998 90 712 00 99</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Buxoro shahar</p>
+                        <p><i class="fas fa-envelope"></i> info@nanodecor.uz</p>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2025 NanoDecor. <span data-key="rights-reserved">Barcha huquqlar himoyalangan.</span></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="scripts/main.js"></script>
+        <script src="scripts/translations.js"></script>
+    </body>
+    </html>
